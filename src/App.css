@@ -1,38 +1,133 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* body{
+  height: 100vh;
+  width: 100vw;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
+}
+.container-box{
+  width: 500px;
+  height: 500px;
+  border: 1px solid #ececec;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: white;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+li{
+  padding: 10px;
+  flex: 1;
+  height: 0px;
+}
+.todoList{
+  width: 380px;
+  padding: 30px;
+  border-radius: 10px;
+  margin: 50px auto;
+  background-repeat: round;
+  height: 550px;
+  background-color: bisque;
+}
+.title{
+  border-radius: 12px 12px 0px 0px;
+  padding: 10px;
+  background-color: #e1e1e1;
+  font-size: 18px;
+  font-weight: bold;
 }
 
-.App-link {
-  color: #61dafb;
+.yourJob{
+  border: none;
+  outline: 0;
+  padding: 15px 25px;
+  font-size: 18px;
+  background-color: aliceblue;
+  color: black;
+  flex: 1;
+  margin-right: 12px;
+  border-radius: 30px;
+  max-width: 100%;
+}
+.btnAdd{
+  height: 50px;
+}
+.btnArea{
+  display: flex;
+}
+.form-box{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} */
+
+
+body{
+    max-width: 100%;
+    background-color: white;
+}
+.title{
+  display: flex;
+  justify-content: center;
+  border-radius: inherit;
+  padding: 8px;
+  background-color: #e1e1e1;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.container-box{
+    width : 100%;
+    height: 100vh;
+    padding-top: 50px;
+    background-color: #dedede;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.todoList{
+    width: 380px;
+    padding: 30px;
+    border-radius: 10px;
+    margin: 50px auto;
+    background-repeat: round;
+    height: 550px;
+    background-color: white;
+}
+
+.yourJob{
+    border: none;
+    outline: 0;
+    padding: 15px 25px;
+    font-size: 18px;
+    background-color: aliceblue;
+    color: black;
+    flex: 1;
+    margin-right: 12px;
+    border-radius: 30px;
+    max-width: 100%;
+    border-radius: 12px;
+}
+.btnAdd{
+  padding: 8px 16px;
+  font-size: 22px;
+  font-weight: 100;
+  border: 1px solid #dcdcdc;
+  border-radius: 12px;
+  cursor: pointer;
+  font-weight: 400;
+}
+.btnAdd:hover{
+  background-color: #dedede;
+}
+.btnArea{
+    display: flex;
+    justify-content: space-around;
+}
+button{
+  cursor: pointer;
+}
+li{
+  display: flex;
+  justify-content: space-between;
 }
